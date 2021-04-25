@@ -6,7 +6,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/whiteboard-01', {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect('mongodb+srv://Admin:admin@leavemanagementsystem.up08i.mongodb.net/LeaveManagementSystem?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true});
 
 
 
